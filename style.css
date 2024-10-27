@@ -500,10 +500,10 @@ h1 > span {
   display: block;
   margin-block-end: 20px;
 }
+.projects__picture > img {
+  height: 200px;
 
-.projects__image {
-  width: 100%;
-  height: auto;
+  box-shadow: 5px 5px 10px hsla(153, 71%, 59%, 0.253);
 }
 
 .projects__name {
@@ -580,6 +580,10 @@ h1 > span {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
+  }
+  .projects__picture > img {
+    width: 450px;
+    height: 250px;
   }
 
   .projects__picture {
